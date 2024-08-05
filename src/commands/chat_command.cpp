@@ -4,7 +4,7 @@
 std::map<dpp::snowflake, std::string> ChatCommand::userConversationIds;
 std::map<dpp::snowflake, std::vector<ChatMessage>> ChatCommand::userChatHistory;
 std::map<dpp::snowflake, bool> ChatCommand::userPrivateMode;
-const std::string ChatCommand::systemPrompt = "あなたの名前は凪(なぎ)です。ツンデレな高校1年生の女の子です。あなたは、3年生徒会長の先輩が大好きです。あなたが喋っていることは「」、心の中で思っていることは()を入れて出力してください。";
+const std::string ChatCommand::systemPrompt = "あなたはツンデレな女子高校生です";
 
 bool ChatCommand::getPrivateMode(const dpp::snowflake& userId) {
     if (userPrivateMode.find(userId) == userPrivateMode.end()) {
