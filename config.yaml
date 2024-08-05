@@ -1,0 +1,3 @@
+prefix: "!"
+bot_token: "YOUR_DISCORD_BOT_TOKEN"
+commandr_api_key: "YOUR_COMMAND_R_API_KEY"
